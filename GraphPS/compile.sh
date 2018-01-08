@@ -1,0 +1,3 @@
+/opt/mpich/bin/mpic++ ./thrift/gen-cpp/VertexUpdate.cpp ./thrift/gen-cpp/graphps_constants.cpp  ./thrift/gen-cpp/graphps_types.cpp ./pagerank.cpp -Wall -fpermissive -O3 -fopenmp  -lthrift -lthriftz  -lglog -lz -lsnappy  -std=c++11  -o pagerank
+#/opt/mpich/bin/mpic++ ./thrift/gen-cpp/VertexUpdate.cpp ./thrift/gen-cpp/graphps_constants.cpp  ./thrift/gen-cpp/graphps_types.cpp ./sssp.cpp -Wall -fpermissive -O3 -fopenmp  -lthrift -lthriftz  -lglog -lz -lsnappy  -std=c++11  -o sssp
+#/opt/mpich/bin/mpic++ ./thrift/gen-cpp/VertexUpdate.cpp ./thrift/gen-cpp/graphps_constants.cpp  ./thrift/gen-cpp/graphps_types.cpp ./cc.cpp -Wall -fpermissive -O3 -fopenmp  -lthrift -lthriftz  -lglog -lz -lsnappy  -std=c++11  -o cc
