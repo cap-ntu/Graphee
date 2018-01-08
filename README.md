@@ -12,5 +12,5 @@ GraphH extends GraphMP to a distributed setting using a GAB (GatherApply-Broadca
 ## GraphPS
 GraphPS is our next-generation distributed graph processing system. It leverages the Parameter Server (PS) framework for distributed graph processing, and could offer higher performance than existing solutions for processing big graphs in small commodity clusters.
 
-##GraphStream (Comming Soon)
+## GraphStream (Comming Soon)
 GraphStream provides efficient support for streaming graph scenarios using the lambda architecture. It is still under implementation.
