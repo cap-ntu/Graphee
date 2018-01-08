@@ -4,4 +4,4 @@ Graphee is the big graph analysis system stack in Cloud Application and Platform
 Graphee contains three components:
 
 ## GraphMP
-An Efficient Semi-External-Memory Big Graph Processing System on a Single Machine
+GraphMP is an efficient semi-external-memory big graph processing system on a single machine. It could achieve low disk I/O overhead with a vertex-centric sliding window computation model, a selective scheduling method, and a compressed edge cache mechanism. Extensive evaluations have shown that GraphMP could outperform state-of-the-art systems such as GraphChi, X-Stream and GridGraph by 31.6x, 54.5x and 23.1x respectively, when running popular graph applications on billion-vertex graphs.
